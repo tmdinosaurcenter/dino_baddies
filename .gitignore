@@ -225,4 +225,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#VS Code Folder
+.vscode/
+
 # End of https://www.toptal.com/developers/gitignore/api/renpy,python,windows
