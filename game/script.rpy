@@ -3,7 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define p = Character("Paleontologist")
 
 
 # The game starts here.
@@ -14,20 +14,20 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg field1
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show paleontologist happy
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    p "Oh, hello! I didn't see you there. I'm your friendly-neighborhood Paleontologist. On behalf of the {a=https://tmdinosaurcenter.org/}Montana Dinosaur Center{/a}, I hope you enjoy this game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
+    p "As we progress, we'll be adding more content, characters and conversations to Dinosaur Baddies."
+    
     # This ends the game.
 
     return
